@@ -5,6 +5,7 @@ import Loader from "../loader";
 import Home from "../home";
 import Question from "../question";
 import useWindowSize from "../../hooks/useWindowSize";
+import Text from "../text";
 
 const Page = () => {
   const { section, loading } = useAppState();
@@ -26,6 +27,11 @@ const Page = () => {
       }}
     >
       <Box sx={{ flexGrow: 1, width: "100%" }}>
+        <Text
+          sx={{ padding: "10px 12px", marginBottom: "1rem", fontWeight: 600 }}
+        >
+          Queerantatré
+        </Text>
         <GrowComponent condition={loading}>
           <Loader />
         </GrowComponent>

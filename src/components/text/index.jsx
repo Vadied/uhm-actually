@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 
-const Text = ({ children }) => (
+const Text = ({ sx, children }) => (
   <Box
     sx={{
       backgroundColor: "white",
@@ -8,6 +8,7 @@ const Text = ({ children }) => (
       padding: "10px 20px",
       fontSize: "1.5rem",
       textAlign: "center",
+      ...sx
     }}
   >
     {children}

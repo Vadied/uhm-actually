@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 
-const MyButton = ({ handleClick, color = "", children }) => {
+const MyButton = ({ sx, handleClick, color = "", children }) => {
   return (
     <Button
       variant="contained"
@@ -10,6 +10,7 @@ const MyButton = ({ handleClick, color = "", children }) => {
         backgroundColor: color === "secondary" ? "#FFA3A3" : "#D0FFC9",
         color: "#000000",
         fontSize: "1.5rem",
+        ...sx,
       }}
     >
       {children}
