@@ -126,6 +126,46 @@ const questions = [
     categories: ["books", "film", "fantasy"],
   },
   {
+    text: "Molte delle specie giocabili in D&D sono ispirate dall'ambientazione di Tolkien, come elfi e nani. Nel tempo sono state aggiunte però specie più originali come i Tiefling, i Genasi e gli Aasimar che discendono rispettivamente da Diavoli, Draghi ed Angeli",
+    answer: "I Genasi discendono dagli elementi, non dai draghi",
+    categories: ["gdr", "fantasy"],
+  },
+  {
+    text: "Nei libri della saga Dune, Shai'hulud significa 'Vecchio uomo del deserto' ed è una aproal fremen usata per idicare il vecchio guerriero Gurney Halleck, un vassallo della casa Atreides",
+    answer: "Shai'hulud viene usato per indicare il verme del deserto",
+    categories: ["sci_fi", "books"],
+  },
+  {
+    text: "In Star Trek i colori delle divise servono a indicare i differenti reparti: rosso per gli INgegneri, blu per gli scienziati e medici, giallo per comandanti e sicurezza",
+    answer: "Il rosso è per la sicurezza, il giallo per il comando e il blu per la scienza",
+    categories: ["sci_fi", "tv"],
+  },
+  {
+    text: "Nel libro 'IT' di Stephen King, i membri del Club dei Perdenti si perde nelle fogne dopo aver combattutto 'IT' e riesce e fuggire solo dopo essersi calmati dopo aver compiuto l'antico rituale di Chud",
+    answer: "Dopo aver fatto il rutiale di Chud hanno un orgia che gli permette di ricordarsi al via d'uscita",
+    categories: ["books"],
+  },
+  {
+    text: "Superman, noto originariamente come Kal-El, è nato sul pianeta Krypton, che fu distrutto in seguito ad un terribile cataclisma. Anche se l'esplosione non avrebbe danneggiato l'invuknerabile Kal-El infante, il terribile Generale Zod sicuramente l'avrebbe fatto",
+    answer: "I poteri di Superman derivano dal nostro Sole quindi sarebbe morto anche lui",
+    categories: ["comis", "sci_fi", "cinema"],
+  },
+  {
+    text: "Denethor, Re di Gondor, è padre di Faramir e Boromir, uno dei quali muore sulle cascate di Rauros, mentre l'altro viene ferito gravemente durante l'assedio di Osgiliath",
+    answer: "Denethor non è re, ma soprintendente",
+    categories: ["fantasy", "books", "cinema"],
+  },
+  {
+    text: "Ne 'La Principessa Mononoke', Ashitaka e il suo alce rosso Yakul partono dal loro villaggio in seguito all'attacco di un demone. Scoprono quindi che c'è una guerra tra gli spiriti della foresta e gli umani della Città di Ferro. Mentre i lupi e i chinghiali sono combattivi, un gruppo di donne chiassose inventano armi da fuoco con cui respingerli",
+    answer: "Le armi sono create da lebbrosi",
+    categories: ["fantasy", "anime", "cinema"],
+  },
+  {
+    text: "Il principale antagonista della serie Zelda è Ganondorf, membro della specie dei Gerudo, ladri del deserto. Addestrato dal padre nella magia, Ganondorf spesso possiede il potere della Triforza, rendendolo quasi invincibile",
+    answer: "Ganondorf non ha padre, I gerudo sono una specie di sole donne e ogni 100 anni ne nasce un maschio che diventa re",
+    categories: ["videogames"],
+  },
+  {
     text: "",
     answer: "",
     categories: [""],

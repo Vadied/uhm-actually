@@ -9,6 +9,8 @@ const useQuestions = () => {
   useEffect(() => {
     const categories = rawQuestions.reduce((res, question) => {
       question.categories.forEach((category) => {
+        if(!question.text || !category) return;
+
         if (!res[category]) {
           const cat = rawCategories.find((cat) => cat.code === category);
           res[category] = { ...cat, questions: [] };
