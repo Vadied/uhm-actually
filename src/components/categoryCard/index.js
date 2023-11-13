@@ -5,6 +5,7 @@ const CategoryCard = ({ category, handleClick }) => {
     <MyButton
       sx={{
         display: "flex",
+        flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
         textAlign: "center",
@@ -12,7 +13,8 @@ const CategoryCard = ({ category, handleClick }) => {
       }}
       handleClick={handleClick}
     >
-      {category.label} ({category.questions.length})
+      <div>{category.label}</div>
+      <div>({category.questions.length})</div>
     </MyButton>
   );
 };

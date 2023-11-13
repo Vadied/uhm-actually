@@ -75,10 +75,6 @@ const categories = [
     code: "books",
     label: "Libri",
   },
-  {
-    code: "film",
-    label: "Film",
-  },
 ];
 
 export default categories;

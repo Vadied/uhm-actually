@@ -24,7 +24,7 @@ const questions = [
     categories: ["cinema", "sci_fi"],
   },
   {
-    text: "Nel trono di Spade, Daenerys Nata dalla Tempesta, della casa Targaryen, Prima del suo nome, la Non bruciata, Regina di Mareen, Regina degli Andali, dei Rhoynar e dei Primi Uomini, Khaleesi del Grande Mare d'Erba, Distruttrice di Catene e Madre dei Draghi ha tre draghi di nome Drogon, Rhaegal e Meraxes ",
+    text: "Nel trono di Spade, Daenerys Nata dalla Tempesta, della casa Targaryen, Prima del suo nome, la Non bruciata, Regina di Mareen, Regina degli Andali, dei Rhoynar e dei Primi Uomini, Khaleesi del Grande Mare d'Erba, Distruttrice di Catene e Madre dei Draghi ha tre draghi di nome Drogon, Rhaegal e Meraxes",
     answer: "Il terzo drago si chiama Viserion, non Meraxes",
     categories: ["tv", "fantasy"],
   },
@@ -85,12 +85,12 @@ const questions = [
   {
     text: "Nel fantasy esistono numerosi mostri creati unendo due creature reali in una e Dungeons and Dragons ne fa largo uso. Nel suo manuale dei mostri si possono trovare Orsogufi, Puzzomucche e conigli unicorno",
     answer: "Non ci sono puzzomucche",
-    categories: ["gdr", "boardgames", "fantasy"],
+    categories: ["boardgames", "fantasy"],
   },
   {
-    text: "I giochi del franchise Final Fantasy tendonoa d essere dei giochi standalone, ognuno che sviluppa un suo gruppo di ambientazione e personaggi. Ciononostante alcuni ritornano più volte attraverso la serie. Fin da Final Fantasi II ogni gioco ha sempre incluso i chocobo, i moguri e un personaggio chiamato Cid",
+    text: "I giochi del franchise Final Fantasy tendono ad essere dei giochi standalone, ognuno che sviluppa un suo gruppo di ambientazione e personaggi. Ciononostante alcuni ritornano più volte attraverso la serie. Fin da Final Fantasy II ogni gioco ha sempre incluso i chocobo, i moguri e un personaggio chiamato Cid",
     answer:
-      "I moguri appaiono per la prima volta in Final Fantasi III e non sono presenti nel IV",
+      "I moguri appaiono per la prima volta in Final Fantasy III e non sono presenti nel IV",
     categories: ["videogames"],
   },
   {
@@ -107,7 +107,7 @@ const questions = [
     text: "Nel libro di L. Frank Baum 'Il Meraviglioso Mago di Oz', Dorothy ottinee due scarpette di rosso rubino dopo aver ucciso accidentalmente la malvagia strega dell'est. Le scarpette saranno alla fine il modo con cui ritorna in Kansas",
     answer:
       "Nel libro le scarpette sono d'argento. Nel film con Judy Garland si faranno rosse per sfruttre la nuova invenzione dell'epoca: il technicolor",
-    categories: ["film", "books", "fantasy"],
+    categories: ["cinema", "books", "fantasy"],
   },
   {
     text: "I Draghi sono stati rappresentati di ogni forma e dimensione e le sottocategorie possono essere identificate attraverso piccole differenze. Per esempio le viverne hanno solo due gambe, i Wyrm sono enormi serpenti senza ali e gambe e i draghi Giapponesi sono lunghi, volanti, con quattro gambe e quattro dita per piede",
@@ -124,12 +124,12 @@ const questions = [
     text: "Ad oggi la versione di Dracula più rappresentata è quella di Bela Lugosi: un uomo elegante, pallido, coi capelli lisciati all'indietro canini appuntiti e mantello rosso. Tuttavia, nel libro originale di Bram Stocker Dracula è descritto molto più simile a Nosferatu: un uomo brutto, con i denti da ratto, lunghe dita e orecchie a punta",
     answer:
       "Nel libro è descritto come un uomo alto e vecchio. Ben lavato e sbarbato salvo lunghi baffi bianchi e un vestito toalmente nero senza altri colori",
-    categories: ["books", "film", "fantasy"],
+    categories: ["books", "cinema", "fantasy"],
   },
   {
     text: "Molte delle specie giocabili in D&D sono ispirate dall'ambientazione di Tolkien, come elfi e nani. Nel tempo sono state aggiunte però specie più originali come i Tiefling, i Genasi e gli Aasimar che discendono rispettivamente da Diavoli, Draghi ed Angeli",
     answer: "I Genasi discendono dagli elementi, non dai draghi",
-    categories: ["gdr", "fantasy"],
+    categories: ["boardgames", "fantasy"],
   },
   {
     text: "Nei libri della saga Dune, Shai'hulud significa 'Vecchio uomo del deserto' ed è una aproal fremen usata per idicare il vecchio guerriero Gurney Halleck, un vassallo della casa Atreides",
@@ -173,7 +173,7 @@ const questions = [
   {
     text: "Nel racconto di Philip K. Dick 'Blade Runner', Rick Deckard usa una macchina Voight-Kampff per determinare se un sospetto sia davvero umano misurando la sua capacità di risposta fisiologica",
     answer: "Il Libro si chiama 'Do the androids dream of electric sheep?'",
-    categories: ["sci_fi", "books", "film"],
+    categories: ["sci_fi", "books", "cinema"],
   },
   {
     text: "Nel primo libro della serie del Mondo Disco di Terry Pratchett, i lettori scoprono che il colore della magia pura è l'ottarino, un colore visibile solo ai maghi",
@@ -187,13 +187,192 @@ const questions = [
   },
   {
     text: "Una delle relazioni più iconiche mai fatte è quella tra Han Solo e il suo co-pilota ChewBacca. Questi si espime solo in Shyriiwook, ma può comprendere l'inglese, mentre Han parla solo in inglese poichè lo Shryiiwook è troppo difficile per gli umani",
-    answer: "L'inglese non esiste nell'universo di Star Wars, il linguaggio è definito Basic",
+    answer:
+      "L'inglese non esiste nell'universo di Star Wars, il linguaggio è definito Basic",
     categories: ["sci_fi", "cinema"],
   },
   {
     text: "Anceh se il mondo dei Giochi di Ruolo è dominato da Dungeon And Dragons che è basato sul concetto di High Fantasy, altri giochi si focalizzano su altri generi: ad esempio World of Darkness ha un setting da urban horror, ShadowRun è una distopia cyberpunk e GURP si focalizza sulle storie di supereroi",
-    answer: "GURP sta per Generic universal Role Playing System ed è un gioco generico, non di supereroi",
-    categories: ["gdr", "boardgames"],
+    answer:
+      "GURP sta per Generic Universal Role Playing System ed è un gioco generico, non di supereroi",
+    categories: ["boardgames"],
+  },
+  {
+    text: "Anche se normalmente il titolo 'Super mario Brothers' è associato a Mario e Luigi, nel 1992 fa la comparsa Wario, il fratello perduto per il gioco per Game Boy 'Super Mario Land 2: 6 golden coins'",
+    answer: "Wario è un amico d'infanzia non il fratello",
+    categories: ["videogames"],
+  },
+  {
+    text: "Mentre molte persone sannoche la kryptonite è il punto debole di Superman, non molti sanno che esiste in diversi colori, con vari effetti: la classica verde lo indebolisce, la rosa gli fa perdere i poteri, la rossa gli fa perdere le inibizioni",
+    answer:
+      "La kryptonite rosa lo rende gay. Quella oro gli fa perdere i poteri",
+    categories: ["comics"],
+  },
+  {
+    text: "In Futurama, i membri della Planet Express sono un gruppo eterogeneo di persone, ma nonostante le loro differenze solo Jhon Zoidberg non è originario della Terra",
+    answer: "Amy viene da Marte",
+    categories: ["tv"],
+  },
+  {
+    text: "In Dungeons and Dragons le classi dei personaggi sono cambiate da edizione a edizione, Mentre alcune sono presenti fin dalla prima edizione, quali monaco, incantatore e bardo, altre sono state aggiunte in seguito, come il warlock, il ranger e il druido",
+    answer: "L'incantatore è un termeine generico, esiste il mago",
+    categories: ["boardgames"],
+  },
+  {
+    text: "Nel libro 'American Gods', Odino ha due corvi, Huginn e Muninn (pensiero e memoria). Quando il protagonista, Shadow, si trova da solo con uno dei corvi, questi gli dice 'mai più', in citazione di Edgar Allan Poe",
+    answer: "Il corvo gli dice 'vaffanculo'",
+    categories: ["books", "fantasy"],
+  },
+  {
+    text: "Anche se molti dei talenti di Xena sono tutto sommato normali, lei ha dimostrato anche capacità soprannaturali. In aggiunta alla sua competenza con la sua arma immaginaria, il chakram, può usare telecinesi e proiezioni di energia",
+    answer: "Il chakram è una vera arma",
+    categories: ["tv"],
+  },
+  {
+    text: "Ne 'I monty python e il sacro graal', un narratore legge da un libro e ci informa di quattro cavalieri che si uniscono ad Artù nella sua missione: Sir Bedevere il Saggio, Sir Lancelot il Coraggioso, Sir Robin il Non Così Coraggioso e Sir Galahad il Puro",
+    answer: "C'è anche Sir Not Appearing in this film",
+    categories: ["cinema", "fantasy"],
+  },
+  {
+    text: "Il gioco da tavolo pandemic è uno dei giochi cooperativi più popolari. I giocatori devono collaborare contro il gioco per curare ed eradicare quattro diverse malattie prima che sommergano il mondo",
+    answer: "Non è necessario eradicarle, ma solo trovare le cure",
+    categories: ["boardgames"],
+  },
+  {
+    text: "L'originale Neon Genesis Evangelion riguarda un adolescente che pilota robot giganti chiamati Evangelion, o Eva, per combattere dei mostri denominati Angeli. Con un countdown all'apocalisse che serve per far avanzare la storia, i fans sono rimasti molto sorpresi quando gli ultimi due episodi della serie hanno esplorato la psiche dei personaggi invece di mostrare la battaglia finale",
+    answer: "Gli eva sono creature organiche, non robot",
+    categories: ["anime", "tv"],
+  },
+  {
+    text: "Tutti i pokemon sono classificati in almeno uno dei 18 tipi disponibili. Uno dei più rari è il tipo Drago. Debole contro gli attacchi di ghiaccio, fatati e di altri draghi, questo tipo include Dragonite, Salamence e Charizard",
+    answer: "Chariard non è un drago, ma un fuoco",
+    categories: ["videogames"],
+  },
+  {
+    text: "Il regista di 'Nightmare before Christmas', Tim burton ha basato il film su un poema che di tre apgine che aveva scritto diversi anni prima",
+    answer: "Tim Burton non è il regista, ma lo era Henry Selick",
+    categories: ["cinema"],
+  },
+  {
+    text: "Ne 'Il Quinto Elemento' Korben Dallas e Leeloo si incontrano con la Diva Plavalaguna sulla nave da crocera di lusso Fhloston Paradise per recuperare le quattro pietre elementari. Dopo essere stata mortalmente ferita, la Diva rivela che le pietre sono nascoste nella sua cabina",
+    answer: "Le pietre si trovano dentro di lei",
+    categories: ["sci_fi", "cinema"],
+  },
+  {
+    text: "E' difficile trovare buoni titoli e a volte devono rimanere segreti. Per questo motivo 'Halo' era inizialmente conosciuto come 'Monkey nuts', 'Chrash Bandicoot' come 'Sonic's Ass Game' e 'Doom' era 'It's Green and Pissed'",
+    answer: "Doom era 'Attack of the Attackers'",
+    categories: ["videogames"],
+  },
+  {
+    text: "In 'Sailor Moon', ogni guerriera ha un potere elementale unico e prende il nome da un pianeta di riferimento",
+    answer:
+      "Sailor Moon prende il nome dalla Luna e Pluto non è più ufficialmente un pianeta",
+    categories: ["anime", "tv"],
+  },
+  {
+    text: "Nel Signore degli Anelli Frodo entra in possesso dell'Unico Anello durante il centesimo compleanno di Bilbo, in cui Bilbo annuncia che avrebbe lasciato la Contea",
+    answer: "Era il 111esimo compleanno",
+    categories: ["fantasy", "books", "cinema"],
+  },
+  {
+    text: "Hunger Games ha luogo in un Nord America post apocalittico, ora chiamato Panem come semplificazione di Pan America",
+    answer: "Deriva invece da panem et circenses",
+    categories: ["cinema"],
+  },
+  {
+    text: "Ne 'Guida galttica per autostoppisti' ci sono numerose navi spaziali alimentate da tecnologie assurde. Una di queste è la Bistromath che compie viaggi spaziali istantanei grazie al suo motore a 'improbabilità infinita', una tecnologia in grado di alterare la realtà che permette alla nave di attraversare ogni punto dell'universo contemporaneamente",
+    answer: "La Bistromath è alimentata da un Motore Bistromatico. L'improbabilità infinita è il motore dell'Heart of Gold",
+    categories: ["sci_fi", "books", "cinema"],
+  },
+  {
+    text: "Ne 'I Monthy Python e il Sacro Grail', I Cavalieri che dicono Tiè rifiutano di lasciar passare Artù e i suoi uomini attraverso il ponte fino a quando non avranno portato loro un po' di verde. Dopo avergli portato un cespuglio, i cavalieri chiedono un'altra prova: un altro po' di verde da mettere leggermente sopra il primo, In seguito i cavaliere che dicono Tiè chiederanno di abbattere un albero con un aringa",
+    answer: "Dopo essere tornato col primo po' di verde, non sono più Cavalieri che dicono Tiè, ma i Cavalieri che dicono 'Ecchi ecchi ecchi ecchi senef... otte'",
+    categories: ["cinema", "fantasy"],
+  },
+  {
+    text: "IN buona parte del MondoDisco di Terry Pratchett, si festeggia una festa chiamata Hogswatch, che è molto simile al Natale. Si celebra il 25 dicembre, e la gente decora querce in vaso in attesa di Babbo Maiale che guida una slitta trainata da cinghiali selvatici per portare regali ",
+    answer: "Si festeggia il 32 dicembre",
+    categories: ["fantasy", "books"],
+  },
+  {
+    text: "Nel Doctor Who, personalità ricche e distinte si raggruppano sulla stazione spaziale, Platform One, per osservare la Terra venir distrutta dal sole nell'anno 5 miliardi. Tra le persone c'è Lady Cassandra O'Brien Dot Delta 17, un alieno rappresentato come un volto umano su un foglio di pelle tenuto da una cornice di metallo che dev'essere costantemente umidificata",
+    answer: "Cassandra è l'ultimo umano esistente, divenuto così in seguito a 708 operazioni chirurgiche",
+    categories: ["sci_fi", "tv"],
+  },
+  {
+    text: "",
+    answer: "",
+    categories: [""],
+  },
+  {
+    text: "",
+    answer: "",
+    categories: [""],
+  },
+  {
+    text: "",
+    answer: "",
+    categories: [""],
+  },
+  {
+    text: "",
+    answer: "",
+    categories: [""],
+  },
+  {
+    text: "",
+    answer: "",
+    categories: [""],
+  },
+  {
+    text: "",
+    answer: "",
+    categories: [""],
+  },
+  {
+    text: "",
+    answer: "",
+    categories: [""],
+  },
+  {
+    text: "",
+    answer: "",
+    categories: [""],
+  },
+  {
+    text: "",
+    answer: "",
+    categories: [""],
+  },
+  {
+    text: "",
+    answer: "",
+    categories: [""],
+  },
+  {
+    text: "",
+    answer: "",
+    categories: [""],
+  },
+  {
+    text: "",
+    answer: "",
+    categories: [""],
+  },
+  {
+    text: "",
+    answer: "",
+    categories: [""],
+  },
+  {
+    text: "",
+    answer: "",
+    categories: [""],
+  },
+  {
+    text: "",
+    answer: "",
+    categories: [""],
   },
   {
     text: "",
