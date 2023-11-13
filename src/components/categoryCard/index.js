@@ -12,7 +12,7 @@ const CategoryCard = ({ category, handleClick }) => {
       }}
       handleClick={handleClick}
     >
-      {category.label}
+      {category.label} ({category.questions.length})
     </MyButton>
   );
 };

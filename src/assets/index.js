@@ -122,7 +122,8 @@ const questions = [
   },
   {
     text: "Ad oggi la versione di Dracula più rappresentata è quella di Bela Lugosi: un uomo elegante, pallido, coi capelli lisciati all'indietro canini appuntiti e mantello rosso. Tuttavia, nel libro originale di Bram Stocker Dracula è descritto molto più simile a Nosferatu: un uomo brutto, con i denti da ratto, lunghe dita e orecchie a punta",
-    answer: "Nel libro è descritto come un uomo alto e vecchio. Ben lavato e sbarbato salvo lunghi baffi bianchi e un vestito toalmente nero senza altri colori",
+    answer:
+      "Nel libro è descritto come un uomo alto e vecchio. Ben lavato e sbarbato salvo lunghi baffi bianchi e un vestito toalmente nero senza altri colori",
     categories: ["books", "film", "fantasy"],
   },
   {
@@ -137,18 +138,21 @@ const questions = [
   },
   {
     text: "In Star Trek i colori delle divise servono a indicare i differenti reparti: rosso per gli INgegneri, blu per gli scienziati e medici, giallo per comandanti e sicurezza",
-    answer: "Il rosso è per la sicurezza, il giallo per il comando e il blu per la scienza",
+    answer:
+      "Il rosso è per la sicurezza, il giallo per il comando e il blu per la scienza",
     categories: ["sci_fi", "tv"],
   },
   {
     text: "Nel libro 'IT' di Stephen King, i membri del Club dei Perdenti si perde nelle fogne dopo aver combattutto 'IT' e riesce e fuggire solo dopo essersi calmati dopo aver compiuto l'antico rituale di Chud",
-    answer: "Dopo aver fatto il rutiale di Chud hanno un orgia che gli permette di ricordarsi al via d'uscita",
+    answer:
+      "Dopo aver fatto il rutiale di Chud hanno un orgia che gli permette di ricordarsi al via d'uscita",
     categories: ["books"],
   },
   {
     text: "Superman, noto originariamente come Kal-El, è nato sul pianeta Krypton, che fu distrutto in seguito ad un terribile cataclisma. Anche se l'esplosione non avrebbe danneggiato l'invuknerabile Kal-El infante, il terribile Generale Zod sicuramente l'avrebbe fatto",
-    answer: "I poteri di Superman derivano dal nostro Sole quindi sarebbe morto anche lui",
-    categories: ["comis", "sci_fi", "cinema"],
+    answer:
+      "I poteri di Superman derivano dal nostro Sole quindi sarebbe morto anche lui",
+    categories: ["comics", "sci_fi", "cinema"],
   },
   {
     text: "Denethor, Re di Gondor, è padre di Faramir e Boromir, uno dei quali muore sulle cascate di Rauros, mentre l'altro viene ferito gravemente durante l'assedio di Osgiliath",
@@ -162,8 +166,34 @@ const questions = [
   },
   {
     text: "Il principale antagonista della serie Zelda è Ganondorf, membro della specie dei Gerudo, ladri del deserto. Addestrato dal padre nella magia, Ganondorf spesso possiede il potere della Triforza, rendendolo quasi invincibile",
-    answer: "Ganondorf non ha padre, I gerudo sono una specie di sole donne e ogni 100 anni ne nasce un maschio che diventa re",
+    answer:
+      "Ganondorf non ha padre, I gerudo sono una specie di sole donne e ogni 100 anni ne nasce un maschio che diventa re",
     categories: ["videogames"],
+  },
+  {
+    text: "Nel racconto di Philip K. Dick 'Blade Runner', Rick Deckard usa una macchina Voight-Kampff per determinare se un sospetto sia davvero umano misurando la sua capacità di risposta fisiologica",
+    answer: "Il Libro si chiama 'Do the androids dream of electric sheep?'",
+    categories: ["sci_fi", "books", "film"],
+  },
+  {
+    text: "Nel primo libro della serie del Mondo Disco di Terry Pratchett, i lettori scoprono che il colore della magia pura è l'ottarino, un colore visibile solo ai maghi",
+    answer: "Anche i gatti possono vederlo",
+    categories: ["fantasy", "books"],
+  },
+  {
+    text: "IN Doctor Who, il Dottore è un Signore del Tempo di 900 anni del pianeta Gallyfrey che attraverso il tempo e lo spazio con il suo fidato cacciavite sonico e il suo TARDIS ultimo modello",
+    answer: "Il TARDIS è un MArk 40, un vecchio modello",
+    categories: ["sci_fi", "tv"],
+  },
+  {
+    text: "Una delle relazioni più iconiche mai fatte è quella tra Han Solo e il suo co-pilota ChewBacca. Questi si espime solo in Shyriiwook, ma può comprendere l'inglese, mentre Han parla solo in inglese poichè lo Shryiiwook è troppo difficile per gli umani",
+    answer: "L'inglese non esiste nell'universo di Star Wars, il linguaggio è definito Basic",
+    categories: ["sci_fi", "cinema"],
+  },
+  {
+    text: "Anceh se il mondo dei Giochi di Ruolo è dominato da Dungeon And Dragons che è basato sul concetto di High Fantasy, altri giochi si focalizzano su altri generi: ad esempio World of Darkness ha un setting da urban horror, ShadowRun è una distopia cyberpunk e GURP si focalizza sulle storie di supereroi",
+    answer: "GURP sta per Generic universal Role Playing System ed è un gioco generico, non di supereroi",
+    categories: ["gdr", "boardgames"],
   },
   {
     text: "",
