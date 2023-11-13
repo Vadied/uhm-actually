@@ -9,7 +9,7 @@ const Question = () => {
   const { question, changeSection } = useAppState();
   const [showAnswer, setShowAnswer] = useState(false);
 
-  const toggleAnswer = () => setShowAnswer(s => !s);
+  const toggleAnswer = () => setShowAnswer((s) => !s);
   const goHome = () => changeSection(null);
   return (
     <Box
@@ -18,6 +18,7 @@ const Question = () => {
         justifyContent: "center",
         flexDirection: "column",
         gap: "10px",
+        overflowY: "auto",
       }}
     >
       <Text>{question.text}</Text>

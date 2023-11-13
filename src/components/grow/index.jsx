@@ -10,6 +10,7 @@ const GrowComponent = ({ condition, children }) => {
           gap: "3rem",
           justifyContent: "space-evenly",
           width: "100%",
+          height: "100%",
         }}
         className="grow"
       >

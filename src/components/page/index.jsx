@@ -22,12 +22,13 @@ const Page = () => {
         gap: "3rem",
         flexDirection: "column",
         alignItems: "center",
-        padding: "5rem 2rem",
+        padding: "1rem",
         boxSizing: "border-box",
         fontSize: width > 540 ? "16px" : "8px",
+        overflowY: "auto"
       }}
     >
-      <Box sx={{ flexGrow: 1, width: "100%" }}>
+      <Box sx={{ flexGrow: 1, width: "100%", height: "100%"}}>
         <Title />
         <GrowComponent condition={loading}>
           <Loader />

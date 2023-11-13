@@ -14,6 +14,7 @@ const Home = () => {
   return (
     <Box
       sx={{
+        height: "100%",
         display: "grid",
         gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
         gridGap: "10px",
