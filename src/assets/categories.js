@@ -23,6 +23,54 @@ const categories = [
     code: "pk",
     label: "Paperinik",
   },
+  {
+    code: "cinema",
+    label: "Cinema",
+  },
+  {
+    code: "got",
+    label: "Trono di Spade",
+  },
+  {
+    code: "tv",
+    label: "Serie TV",
+  },
+  {
+    code: "pokemon",
+    label: "Pokemon",
+  },
+  {
+    code: "anime",
+    label: "Anime e Manga",
+  },
+  {
+    code: "comics",
+    label: "Fumetti",
+  },
+  {
+    code: "mcu",
+    label: "Marvel Cinematic Universe",
+  },
+  {
+    code: "fantasy",
+    label: "Fantasy",
+  },
+  {
+    code: "sci_fi",
+    label: "Fantascienza",
+  },
+  {
+    code: "wot",
+    label: "La Ruota del Tempo",
+  },
+  {
+    code: "gdr",
+    label: "Gioco di Ruolo",
+  },
+  {
+    code: "boardgames",
+    label: "Giochi da Tavolo",
+  },
 ];
 
 export default categories;

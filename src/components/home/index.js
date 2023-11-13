@@ -6,6 +6,7 @@ import { useAppState } from "../../contexts/stateContext";
 
 const Home = () => {
   const { categories, changeSection } = useAppState();
+  console.log(categories)
 
   const handleCategoryClick = (category) => () => {
     changeSection(category);
